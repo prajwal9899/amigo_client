@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import NavBar from "./pages/NavBar";
 // import Footer from "./pages/Footer";
 // import About from "./pages/About";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
 // import Services from "./pages/Services";
 // import Team from "./pages/Team";
 // import Contact from "./pages/Contact";
@@ -42,7 +42,7 @@ function App() {
 
     // </BrowserRouter>
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route
             element={
@@ -102,7 +102,7 @@ function App() {
             }
           />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
