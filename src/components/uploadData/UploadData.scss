@@ -1,0 +1,28 @@
+.uploadContainer {
+  width: 100%;
+  height: 400px;
+  .title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+margin-bottom: 40px;
+  }
+  label {
+    margin: 0 auto;
+    width: 500px;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    div {
+      display: contents;
+    }
+  }
+  button {
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 100%);
+  }
+}
